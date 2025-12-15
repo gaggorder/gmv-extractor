@@ -1,0 +1,5 @@
+{
+  "name": "GMV Extractor Pro",
+  "description": "A specialized tool for extracting financial GMV metrics from table screenshots and formatting them into executive summaries.",
+  "requestFramePermissions": []
+}
