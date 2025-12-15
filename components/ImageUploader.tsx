@@ -1,5 +1,5 @@
 import React, { useRef, useState, useCallback } from 'react';
-import { ImageFile } from '../types';
+import { ImageFile } from '../types.ts';
 
 interface ImageUploaderProps {
   onImageSelected: (file: ImageFile) => void;

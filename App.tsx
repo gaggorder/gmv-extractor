@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { Header } from './components/Header';
-import { ImageUploader } from './components/ImageUploader';
-import { ResultDisplay } from './components/ResultDisplay';
-import { AppState, ImageFile } from './types';
-import { extractGmvData } from './services/geminiService';
+import { Header } from './components/Header.tsx';
+import { ImageUploader } from './components/ImageUploader.tsx';
+import { ResultDisplay } from './components/ResultDisplay.tsx';
+import { AppState, ImageFile } from './types.ts';
+import { extractGmvData } from './services/geminiService.ts';
 
 const App: React.FC = () => {
   const [appState, setAppState] = useState<AppState>(AppState.IDLE);

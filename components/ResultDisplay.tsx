@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AppState } from '../types';
+import { AppState } from '../types.ts';
 
 interface ResultDisplayProps {
   appState: AppState;
